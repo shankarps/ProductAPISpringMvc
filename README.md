@@ -28,3 +28,9 @@ This is a sample REST API built with Spring Boot and Spring MVC. It provides GET
 
 ######GET /products/{code} 
 	Returns products that have given tag as JSON array. May return empty list.
+	
+####Other implementations
+The following projects implement the same API, but with different technologies.
+
+1. https://github.com/shankarps/ProductApiSwagger
+2. https://github.com/shankarps/ProductApiSpringBoot
