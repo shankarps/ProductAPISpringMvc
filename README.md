@@ -16,3 +16,11 @@ This is a sample REST API built with Spring Boot and Spring MVC. It provides GET
 
 
 ####API
+
+######GET /products (Returns all the products)
+
+######POST /products (Accepts Product JSON and creates new Product. Returns product object. Throws 400 error if product name not provided.)
+
+######GET /products/{code} (Returns product matching given code. Throws 404 if product not found. )
+
+######GET /products/{code} (Returns products that have given tag. May return empty list.)
